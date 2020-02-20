@@ -9,18 +9,39 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #032d95;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(170, 65, 172);
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.nasa-photo{
+  margin: 4%,0,4%,;
+  width: auto;
+  height: auto;
+  font-size: 1.5rem;
+  color: rgb(237, 245, 243);
+}
+.nasa-photo p{
+  margin: 10%;
+}
+.img{
+  width: 60%;
+  margin-top: 50px;
+  border-radius: 5%;
+  border: rgb(240, 238, 240) solid;
+}
+
+.frame{
+  background-color: #7286b9;
 }
 
 @keyframes App-logo-spin {
@@ -30,4 +51,5 @@
   to {
     transform: rotate(360deg);
   }
+  
 }
